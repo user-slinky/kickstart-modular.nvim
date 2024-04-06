@@ -35,7 +35,7 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 -- [[ My keymaps ]]
 vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle, { desc = '[U]ndotree' })
-vim.keymap.set('n', '<leader>f', ':Telescope file_browser<CR>', { desc = '[F]iletree' })
+vim.keymap.set('n', '<leader>F', ':Telescope file_browser<CR>', { desc = '[F]iletree' })
 vim.keymap.set('n', '<C-d>', '<C-d>zz')
 vim.keymap.set('n', '<C-u>', '<C-u>zz')
 vim.api.nvim_set_keymap('n', '<leader>ta', ':$tabnew<CR>', { noremap = true })
