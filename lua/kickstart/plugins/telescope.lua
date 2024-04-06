@@ -39,8 +39,6 @@ return {
       pcall(require('telescope').load_extension, 'ui-select')
       pcall(require('telescope').load_extension, 'file-browser')
       pcall(require('telescope').load_extension, 'frecency')
-      pcall(require('telescope').load_extension, 'frecency')
-
       -- See `:help telescope.builtin`
       local builtin = require 'telescope.builtin'
       vim.keymap.set('n', '<leader>sh', builtin.help_tags, { desc = '[S]earch [H]elp' })
