@@ -1,3 +1,3 @@
-return = {
+return {
   { 'ggandor/leap.nvim', opts = {}, }
 }
