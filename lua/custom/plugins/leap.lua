@@ -13,6 +13,6 @@ require('leap').opts.special_keys.prev_group = '<backspace>'
 -- Use the traversal keys to repeat the previous motion without explicitly
 -- invoking Leap.
 require('leap.user').set_repeat_keys('<enter>', '<backspace>')
-    end
+    end,
     opts = {}, }
 }
